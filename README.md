@@ -35,10 +35,6 @@ clap-demo/
 ### 安装和运行
 
 ```bash
-# 克隆项目
-git clone <repository-url>
-cd clap-demo
-
 # 构建项目
 cargo build
 
