@@ -68,39 +68,6 @@ cargo run -- --version
 cargo run -- --name "Alice"
 ```
 
-## 代码说明
-
-### 主应用 (`src/main.rs`)
-
-应用定义了以下命令行接口：
-- **程序名称**: "Clap Example"
-- **作者**: user@example.com
-- **版本**: 0.1.0
-- **描述**: 简要说明程序功能
-- **参数**: `--name` (可选，用于设置名称)
-- **帮助信息**: 包含详细的使用说明
-
-### 构建应用函数
-
-`build_app()` 函数使用 Clap 的构建器模式创建命令行应用：
-- 设置元数据（名称、作者、版本、描述）
-- 定义命令行参数
-- 配置帮助信息
-
-## 开发
-
-### 运行测试
-
-```bash
-cargo test
-```
-
-### 构建发布版本
-
-```bash
-cargo build --release
-```
-
 ## 参考资源
 
 - [Clap 官方仓库](https://github.com/clap-rs/clap)
